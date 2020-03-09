@@ -1,0 +1,72 @@
+<project>
+ <properties osx_bundle="com.yourdomain." html5_pack="1" android_template="0" fps="60" winrt_package="com.yourdomain.yourapp" tv_icon="" exportMode="0" encryptCode="1" architecture="7" osx_installerId="" logicalHeight="800" ios_bundle="com.yourdomain." autorotation="0" html5_fbload="100" app_icon="" disableSplash="0" osx_signingId="" scaleMode="3" version="1.0" backgroundColor="#ffffff" html5_host="" html5_crash="" splashScaleMode="0" win_domain="mokalux.com" osx_category="5" html5_fbinstant="0" mouseToTouch="1" orientation="0" windowHeight="0" windowWidth="0" osx_domain="giderosmobile.com" splash_h_image="" html5_mem="256" html5_symbols="0" touchToMouse="1" retinaDisplay="0" osx_org="GiderosMobile" vsync="1" app_name="" mouseTouchOrder="0" packageName="com.yourdomain.yourapp" html5_wasm="0" iosDevice="0" logicalWidth="480" splash_v_image="" encryptAssets="1" win_org="mokalux" version_code="1" winrt_org="GiderosMobile" build_number="1">
+  <imageScales/>
+  <plugins>
+   <plugin enabled="0" name="Ads">
+    <property value="1" name="adsFwAdmob"/>
+    <property value="" name="adsFwAdmobBanner"/>
+    <property value="" name="adsFwAdmobClient"/>
+    <property value="" name="adsFwAdmobInterstitial"/>
+    <property value="0" name="adsFwApplovin"/>
+    <property value="" name="adsFwApplovinKey"/>
+    <property value="0" name="adsFwChartboost"/>
+    <property value="0" name="adsFwKiip"/>
+    <property value="" name="adsFwKiipKey"/>
+    <property value="" name="adsFwKiipKeyIos"/>
+    <property value="0" name="adsFwUnity"/>
+    <property value="0" name="adsFwVungle"/>
+    <property value="" name="gmsAppId"/>
+    <property value="16.0.0" name="gmsVersion"/>
+   </plugin>
+   <plugin enabled="0" name="Bump"/>
+   <plugin enabled="1" name="Easing"/>
+   <plugin enabled="0" name="GSFXR"/>
+   <plugin enabled="0" name="Gaming">
+    <property value="" name="gmsAppId"/>
+    <property value="0" name="gmsFwGamekit"/>
+    <property value="1" name="gmsFwGoogle"/>
+    <property value="16.0.0" name="gmsVersion"/>
+   </plugin>
+   <plugin enabled="0" name="HarfBuzz"/>
+   <plugin enabled="0" name="JSON"/>
+   <plugin enabled="1" name="SceneManager"/>
+  </plugins>
+  <exports>
+   <export name="APK">
+    <property value="" name="androidPath"/>
+    <property value="" name="androidSdk"/>
+    <property value="26" name="androidTarget"/>
+    <property value="" name="androidTools"/>
+    <property value="1" name="buildAab"/>
+    <property value="0" name="buildApk"/>
+    <property value="0" name="deployApk"/>
+    <property value="" name="javaPath"/>
+    <property value="" name="keyAlias"/>
+    <property value="" name="keyStore"/>
+    <property value="com.yourdomain.yourapp" name="packageName"/>
+    <property value="0" name="timestampApk"/>
+   </export>
+  </exports>
+ </properties>
+ <folder name="audio">
+  <file name="assets/audio/selectoff.wav"/>
+  <file name="assets/audio/selecton.wav"/>
+ </folder>
+ <folder name="classes">
+  <file name="assets/classes/buttonUDD_V2.lua"/>
+  <file name="assets/classes/gtween.lua"/>
+  <file name="assets/classes/listviewV2.lua"/>
+ </folder>
+ <folder name="fonts"/>
+ <folder name="gfx">
+  <folder name="coins">
+   <file name="assets/gfx/coins/coin_20_x01.png"/>
+  </folder>
+ </folder>
+ <folder name="scenes">
+  <file name="assets/scenes/levels.lua"/>
+  <file name="assets/scenes/menu.lua"/>
+ </folder>
+ <file name="assets/init.lua"/>
+ <file name="assets/main.lua"/>
+</project>
